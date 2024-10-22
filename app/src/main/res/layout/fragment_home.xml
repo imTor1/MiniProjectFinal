@@ -7,6 +7,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
+    android:background="#ffe5ec"
     tools:context=".ui.home.HomeFragment">
 
     <ProgressBar
@@ -17,19 +18,41 @@
         android:layout_gravity="center"
         android:visibility="gone" />
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="300dp"
+
+    <RelativeLayout
+        android:layout_width="match_parent"
         android:layout_height="300dp"
         android:layout_gravity="center"
-        android:padding="10dp"
-        android:src="@drawable/user"/>
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_centerInParent="true"
+            android:padding="10dp"
+            android:src="@drawable/user" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="กรุณาอัพโหลดรูปภาพ" />
+    </RelativeLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="รายละเอียด   1234-13245-13.jpg"/>
 
     <Button
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginRight="60dp"
-        android:layout_marginLeft="60dp"
-        android:layout_marginTop="20dp"
-        android:text="Upload Photo"/>
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#F694C1"
+        android:text="ยืนยัน"/>
 </LinearLayout>
