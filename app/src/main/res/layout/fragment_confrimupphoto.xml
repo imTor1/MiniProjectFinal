@@ -24,7 +24,7 @@
             android:layout_centerHorizontal="true"
             android:textStyle="bold"
             android:layout_marginBottom="20dp"
-            android:textColor="@color/black"
+            android:textColor="@color/Black"
             android:textSize="10dp"
             android:text="ขอความยินยอมในการเข้าถึงและจัดเก็บรูปภาพ" />
 
@@ -33,15 +33,16 @@
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:text="@string/policy"
+            android:padding="20dp"
             android:textAlignment="center"
-            android:textColor="@color/black"
+            android:textColor="@color/Black"
             android:textSize="10dp"
             android:textStyle="bold" />
 
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="40dp"
+            android:layout_marginTop="30dp"
             android:orientation="horizontal">
 
                 <Button
