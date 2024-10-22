@@ -5,6 +5,15 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+
+
+    <string name="policy">ทางเราขอความยินยอมจากคุณ
+ในการเข้าถึงและจัดเก็บรูปภาพของคุณ
+เพื่อวัตถุประสงค์ในการใช้งานแอพนี้
+รูปภาพของคุณจะได้รับการจัดเก็บและปกป้อง
+ตามนโยบายความเป็นส่วนตัวของเรา
+และจะไม่ถูกเปิดเผยต่อบุคคลที่สาม
+โดยไม่ได้รับความยินยอมจากคุณ</string>
 </resources>
 
 
